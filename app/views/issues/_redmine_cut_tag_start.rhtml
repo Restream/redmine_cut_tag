@@ -1,0 +1,11 @@
+<div class="cut_tag">
+  <% if title.present? %>
+    <h4 class="cut_tag_head"><%= title %></h4>
+  <% end %>
+  <a href="#" class="icon icon-zoom-in cut_tag_show">
+    <%= t 'redmine_cut_tag.show' %>
+  </a>
+  <a href="#" class="icon icon-zoom-out cut_tag_hide" style="display: none;">
+    <%= t 'redmine_cut_tag.hide' %>
+  </a>
+  <div class="cut_tag_content" style="display: none;">

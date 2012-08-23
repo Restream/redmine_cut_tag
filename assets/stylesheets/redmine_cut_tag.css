@@ -1,0 +1,15 @@
+.cut_tag
+{
+  border-left: 1px solid silver;
+  padding-left: 10px;
+}
+.cut_tag_content
+{
+  border-top: 1px dashed silver;
+}
+.cut_tag_head
+{
+  padding: 3px;
+  background: #eee;
+}
+
