@@ -1,6 +1,6 @@
 module RedmineCutTag
   class Hooks < Redmine::Hook::ViewListener
-    render_on :view_issues_show_description_bottom,
+    render_on :view_layouts_base_html_head,
               :partial => 'hooks/redmine_cut_tag/includes'
   end
 end
