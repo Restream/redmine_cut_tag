@@ -6,8 +6,8 @@ document.observe('click', function(event) {
   var switcher = event.findElement(switchesSelector);
   if (switcher) {
     var cutTagEl = switcher.parentNode;
-    cutTagEl.select(contentSelector).map(Element.toggle);
-    cutTagEl.select(switchesSelector).map(Element.toggle);
+    var selector = switchesSelector + ',' + contentSelector;
+    Selector.matchElements(cutTagEl.childElements(), selector).map(Element.toggle);
     Event.stop(event);
   }
 });
