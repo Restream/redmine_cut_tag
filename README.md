@@ -16,15 +16,24 @@ Wrap a text block with ``{{cut_start(title)}}`` and ``{{cut_end}}`` macros and t
 
 ### Example
 
-``{{cut_start}}
-This text will be hidden by default
-{{cut_end}}``
+Text surrounded with ``{{cut_start(title)}}`` and ``{{cut_end}}``
+
+    {{cut_start}}
+    This text will be hidden by default
+    {{cut_end}}
+
+will transform to:
+![without title](https://github.com/Undev/redmine_cut_tag/raw/master/screenshot_wo_title.png)
+
 
 You can use optional title for hidden block:
 
-``{{cut_start(Application logs)}}
-Rendered tagging/_tagcloud (4.4ms)
-Query Load Including Associations (0.1ms)
-Rendered issues/_sidebar (17.2ms)
-{{cut_end}}``
+    {{cut_start(Application logs)}}
+    Rendered tagging/_tagcloud (4.4ms)
+    Query Load Including Associations (0.1ms)
+    Rendered issues/_sidebar (17.2ms)
+    {{cut_end}}
+
+will transform to:
+![without title](https://github.com/Undev/redmine_cut_tag/raw/master/screenshot_with_title.png)
 

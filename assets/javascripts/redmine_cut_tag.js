@@ -12,4 +12,3 @@ document.observe('click', function(event) {
   }
 });
 
-
