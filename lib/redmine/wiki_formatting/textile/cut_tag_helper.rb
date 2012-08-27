@@ -8,7 +8,7 @@ module Redmine
           unless @heads_for_wiki_formatter_with_cut_tag_included
             content_for :header_tags do
               javascript_include_tag('jstoolbar/cut_tag', :plugin => 'redmine_cut_tag') +
-              javascript_include_tag("jstoolbar_cut_tag-#{current_language.to_s.downcase}", :plugin => 'redmine_cut_tag') +
+              javascript_include_tag("jstoolbar/lang/cut_tag-#{current_language.to_s.downcase}", :plugin => 'redmine_cut_tag') +
               stylesheet_link_tag('jstoolbar_cut_tag', :plugin => 'redmine_cut_tag')
             end
             @heads_for_wiki_formatter_with_cut_tag_included = true
