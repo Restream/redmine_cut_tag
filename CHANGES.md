@@ -9,4 +9,9 @@
 ### 0.0.2
 
 - Fix bug with nested tags
-- Add button to wiki formatting toolbar
+- Added the "cut" button to a wiki formatting toolbar
+
+### 2.0.3
+
+- Added some integration tests
+- Added a branch for the version compatible with Redmine 1.x

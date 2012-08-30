@@ -8,7 +8,7 @@ This redmine plugin adds the ability to use a CUT macros in the issue descriptio
 
 ## Install
 
-``script/plugin install git://github.com/Undev/redmine_cut_tag.git``
+Follow the plugin installation procedure at http://www.redmine.org/wiki/redmine/Plugins.
 
 ## Usage
 

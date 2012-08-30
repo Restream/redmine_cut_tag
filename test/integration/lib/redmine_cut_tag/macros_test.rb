@@ -3,7 +3,7 @@ require File.expand_path('../../../../test_helper', __FILE__)
 
 class MacrosTest < ActionController::IntegrationTest
 
-  fixtures :users, :roles, :trackers
+  fixtures :users, :roles, :trackers, :enumerations, :issue_statuses
 
   def setup
     @project = Project.generate!
