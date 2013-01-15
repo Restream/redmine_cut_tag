@@ -1,0 +1,5 @@
+# German strings go here for Rails i18n
+en:
+  redmine_cut_tag:
+    show: "anzeigen"
+    hide: "verbergen"
