@@ -15,3 +15,8 @@
 
 - Added some integration tests
 - Added a branch for the version compatible with Redmine 1.x
+
+### 2.0.4
+
+- Added FR translation
+- Added DE translation
