@@ -8,7 +8,7 @@ Redmine::Plugin.register :redmine_cut_tag do
   name 'Redmine Cut Tag plugin'
   author 'danil.tashkinov@gmail.com'
   description 'This plugin adds the ability to use a CUT tag'
-  version '2.0.4'
+  version '2.0.5'
   url 'https://github.com/Undev/redmine_cut_tag'
   author_url 'http://github.com/Undev'
   requires_redmine :version_or_higher => '2'
