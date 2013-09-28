@@ -1,5 +1,8 @@
 # Redmine CUT tag plugin
 
+[![Build Status](https://travis-ci.org/Undev/redmine_cut_tag.png)](https://travis-ci.org/Undev/redmine_cut_tag)
+[![Code Climate](https://codeclimate.com/github/Undev/redmine_cut_tag.png)](https://codeclimate.com/github/Undev/redmine_cut_tag)
+
 This redmine plugin adds the ability to use a CUT macros in the issue description
 
 ## Screenshot
