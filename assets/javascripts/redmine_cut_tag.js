@@ -20,6 +20,15 @@ if (typeof(jQuery) == 'undefined') {
 } else {
   // using jquery
 
+  // compatibility code to use 'live' method on jquery 1.9 (redmine 2.5+)
+  // borrowed from jQuery 1.8.3's source code
+  jQuery.fn.extend({
+    live: function( types, data, fn ) {
+            jQuery( this.context ).on( types, this.selector, data, fn );
+            return this;
+          }
+  });
+
   $(document).ready(function() {
 
     var switchesSelector = '.cut_tag_show,.cut_tag_hide';
