@@ -1,4 +1,4 @@
-# Redmine CUT tag plugin
+# Redmine Cut Tag Plugin
 
 [![Build Status](https://travis-ci.org/Undev/redmine_cut_tag.png)](https://travis-ci.org/Undev/redmine_cut_tag)
 [![Code Climate](https://codeclimate.com/github/Undev/redmine_cut_tag.png)](https://codeclimate.com/github/Undev/redmine_cut_tag)
