@@ -20,7 +20,7 @@ This plugin enables you to use the **cut** macros to hide text in Redmine.
  
       Copy the plugin from GitHub using the following command:
 
-            git clone https://github.com/Undev/redmine_issue_template.git plugins/redmine_issue_template
+            git clone https://github.com/Undev/redmine_cut_tag.git plugins/redmine_cut_tag
 
 2. Update the Gemfile.lock file by running the following commands:  
 
