@@ -7,7 +7,7 @@ require_dependency 'redmine/wiki_formatting/textile/cut_tag_helper'
 Redmine::Plugin.register :redmine_cut_tag do
   name 'Redmine Cut Tag Plugin'
   author 'Undev'
-  description 'The cut tag to hide text behind a link in Redmine.'
+  description 'This plugin enables you to hide text behind links in Redmine using the cut tag.'
   version '2.0.5'
   url 'https://github.com/Undev/redmine_cut_tag'
   author_url 'http://github.com/Undev'
