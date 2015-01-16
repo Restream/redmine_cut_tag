@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/Undev/redmine_cut_tag.png)](https://travis-ci.org/Undev/redmine_cut_tag)
 [![Code Climate](https://codeclimate.com/github/Undev/redmine_cut_tag.png)](https://codeclimate.com/github/Undev/redmine_cut_tag)
 
-This plugin enables you to use the **cut** macros to hide text in Redmine.
+This plugin enables you to use the **cut** macro to hide text in Redmine.
 
 ## Installation
 
