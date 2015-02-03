@@ -5,9 +5,11 @@
 
 This plugin enables you to use the **cut** macro to hide text in Redmine.
 
-## Installation
+## Compatibility
 
 This plugin version is compatible only with Redmine 2.x and later.
+
+## Installation
 
 1. To install the plugin
     * Download the .ZIP archive, extract files and copy the plugin directory into *#{REDMINE_ROOT}/plugins*.
