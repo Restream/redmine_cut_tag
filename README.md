@@ -1,6 +1,6 @@
 # Redmine Cut Tag Plugin
 
-[![Build Status](https://travis-ci.org/Undev/redmine_cut_tag.png)](https://travis-ci.org/Undev/redmine_cut_tag)
+[![Build Status](https://travis-ci.org/Undev/redmine_cut_tag.svg?branch=master)](https://travis-ci.org/Undev/redmine_cut_tag)
 [![Code Climate](https://codeclimate.com/github/Undev/redmine_cut_tag.png)](https://codeclimate.com/github/Undev/redmine_cut_tag)
 
 This plugin enables you to use the **cut** macro to hide text in Redmine.
@@ -63,6 +63,10 @@ For example:
 
 ![text hidden under title](cut_tag_3.PNG)  
 ![text displayed under title](cut_tag_4.PNG)  
+
+## Maintainers
+
+Danil Tashkinov, [github.com/nodecarter](https://github.com/nodecarter)
 
 ## License
 
