@@ -20,3 +20,8 @@
 
 - Added FR translation
 - Added DE translation
+
+### 2.0.8
+
+- Moved to Restream
+- Removed support of ruby 1.9

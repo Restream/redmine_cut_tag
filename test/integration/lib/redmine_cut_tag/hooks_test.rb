@@ -1,7 +1,7 @@
 
 require File.expand_path('../../../../test_helper', __FILE__)
 
-class HooksTest < ActionController::IntegrationTest
+class HooksTest < ActionDispatch::IntegrationTest
 
   fixtures :users, :roles, :trackers, :projects
 

@@ -1,7 +1,7 @@
 # Redmine Cut Tag Plugin
 
-[![Build Status](https://travis-ci.org/Undev/redmine_cut_tag.svg?branch=master)](https://travis-ci.org/Undev/redmine_cut_tag)
-[![Code Climate](https://codeclimate.com/github/Undev/redmine_cut_tag.png)](https://codeclimate.com/github/Undev/redmine_cut_tag)
+[![Build Status](https://travis-ci.org/Restream/redmine_cut_tag.svg?branch=master)](https://travis-ci.org/Restream/redmine_cut_tag)
+[![Code Climate](https://codeclimate.com/github/Restream/redmine_cut_tag/badges/gpa.svg)](https://codeclimate.com/github/Restream/redmine_cut_tag)
 
 This plugin enables you to use the **cut** macro to hide text in Redmine.
 
@@ -22,7 +22,7 @@ This plugin version is compatible only with Redmine 2.x and later.
  
       Copy the plugin from GitHub using the following command:
 
-            git clone https://github.com/Undev/redmine_cut_tag.git plugins/redmine_cut_tag
+            git clone https://github.com/Restream/redmine_cut_tag.git plugins/redmine_cut_tag
 
 2. Update the Gemfile.lock file by running the following commands:  
 
@@ -70,7 +70,7 @@ Danil Tashkinov, [github.com/nodecarter](https://github.com/nodecarter)
 
 ## License
 
-Copyright (c) 2015 Undev
+Copyright (c) 2016 Restream
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
