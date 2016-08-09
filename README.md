@@ -46,10 +46,10 @@ For example:
     {{cut_end}}
 
 The text wrapped by the tags is hidden by default. To read the text, click the **Show** link. 
-![hidden text](cut_tag_1.PNG)
+![hidden text](doc/cut_tag_1.png)
 
 To hide the text again, click the **Hide** link.  
-![visible text](cut_tag_2.PNG)
+![visible text](doc/cut_tag_2.png)
 
 You can also add an optional title before the hidden text under using the **``{{cut_start(title)}}``** and **``{{cut_end}}``** tags.
 
@@ -61,8 +61,8 @@ For example:
     Rendered issues/_sidebar (17.2ms)
     {{cut_end}}
 
-![text hidden under title](cut_tag_3.PNG)  
-![text displayed under title](cut_tag_4.PNG)  
+![text hidden under title](doc/cut_tag_3.png)  
+![text displayed under title](doc/cut_tag_4.png)  
 
 ## Maintainers
 
