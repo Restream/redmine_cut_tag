@@ -1,0 +1,5 @@
+# Simplified Chinese strings go here for Rails i18n
+zh:
+  redmine_cut_tag:
+    show: "显示"
+    hide: "隐藏"
