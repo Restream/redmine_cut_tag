@@ -3,6 +3,7 @@ require 'redmine'
 require_dependency 'redmine_cut_tag/hooks'
 require_dependency 'redmine_cut_tag/macros'
 require_dependency 'redmine/wiki_formatting/textile/cut_tag_helper'
+require_dependency 'redmine/wiki_formatting/markdown/cut_tag_helper'
 
 Redmine::Plugin.register :redmine_cut_tag do
   name 'Redmine Cut Tag Plugin'
