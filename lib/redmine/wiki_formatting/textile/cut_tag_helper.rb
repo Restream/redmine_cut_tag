@@ -3,8 +3,10 @@ module Redmine
     module Textile
       module Helper
 
-        def heads_for_wiki_formatter_with_cut_tag
-          heads_for_wiki_formatter_without_cut_tag
+        alias_method :original_heads_for_wiki_formatter, :heads_for_wiki_formatter
+
+        def heads_for_wiki_formatter
+          original_heads_for_wiki_formatter
           unless @heads_for_wiki_formatter_with_cut_tag_included
             content_for :header_tags do
               javascript_include_tag('jstoolbar/cut_tag', plugin: 'redmine_cut_tag') +
@@ -14,8 +16,6 @@ module Redmine
             @heads_for_wiki_formatter_with_cut_tag_included = true
           end
         end
-
-        alias_method_chain :heads_for_wiki_formatter, :cut_tag
 
       end
     end
